@@ -178,3 +178,4 @@ $(call soong_config_set,MITHORIUM_FIRMWARE_WLAN_MAC_BIN,SYMLINK_TARGET,$(TARGET_
 
 # Inherit from the proprietary version
 include vendor/xiaomi/mithorium-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
